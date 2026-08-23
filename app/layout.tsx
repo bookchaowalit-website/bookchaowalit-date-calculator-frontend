@@ -46,6 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* THESIS: Date arithmetic is a dark calendar slide, refusing stacked generic cards. OWN-WORLD: midnight navy, cyan measurement lines, coral answer marks, and monospace figures. STORY: visitors compare an interval or shift a base date and see the answer on the same measuring line. FIRST VIEWPORT: calendar glyph, typographic thesis, today marker, then the compare measure. FORM: calendar slide-rule, assigned grounded direction 3, seed 0b0d9974. FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance */}
         <Analytics />
         <SpeedInsights />
         {children}
